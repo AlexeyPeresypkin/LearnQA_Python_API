@@ -23,12 +23,11 @@ allure
 git clone https://github.com/AlexeyPeresypkin/LearnQA_Python_API.git
 ```
 Перейдите в директорию с проектом:
-
 ```
 cd LearnQA_Python_API/
 ```
-
 Запустите тесты в докере:
+
 ```
 docker-compose up --build
 ```
