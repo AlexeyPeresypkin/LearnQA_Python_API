@@ -35,3 +35,8 @@ class BaseCase:
             'lastName': 'learnqa',
             'email': email
         }
+
+    def prepare_registration_data_without_field(self, filed):
+        data = self.prepare_registration_data()
+        del data[filed]
+        return data
